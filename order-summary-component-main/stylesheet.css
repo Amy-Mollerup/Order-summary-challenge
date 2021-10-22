@@ -1,0 +1,134 @@
+body {
+ background-image: url("images/pattern-background-desktop.svg");
+ background-repeat: no-repeat;
+ background-size: 100%;
+ background-color: hsl(225, 100%, 94%);
+ font-family: "Red Hat Display", sans-serif;
+}
+.attribution { font-size: 11px; position: absolute; bottom: 0; left: 0; right: 0; margin: 0 auto; text-align: center;}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+#stylebox {
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin: 100px auto;
+max-width: 25%;
+min-width: 500px;
+background: white;
+border-radius: 25px;
+text-align: center;
+}
+
+#musicman {
+width: 100%;
+layout: block;
+border-radius: 25px 25px 0 0;
+}
+
+
+p, a, button {
+ font-size: 16px;
+}
+
+#content {
+ width: 80%;
+ align: center;
+ margin: auto;
+}
+
+
+h1 {
+ font-weight: 900;
+}
+
+#desc {
+ margin: 30px;
+ color: gray;
+ line-height: 1.5;
+}
+
+.plan {
+ width: 80%;
+ margin: auto;
+ background-color: hsl(225, 100%, 98%);
+ border-radius: 10px;
+ display: flex;
+ align-items: center;
+ gap: 20px 10px;
+ padding: 30px 15px 30px 20px;
+ box-sizing: border-box;
+}
+
+#notes 
+ width: 48px;
+ height: 48px;
+}
+
+#annual-plan {
+
+}
+
+#annual {
+ text-align: left;
+ margin: 0 10px;
+ padding-bottom: 5px;
+}
+
+#price {
+ text-align: left;
+ margin: 0 10px;
+ color: gray;
+}
+
+#change {
+ display: block;
+ padding: 10px;
+ margin-left: auto;
+}
+
+#payment {
+ border: none;
+ border-radius: 10px;
+ background-color: hsl(245, 75%, 52%);
+ color: white;
+ width: 80%;
+ padding: 18px 0;
+ margin: 30px auto 20px auto;
+ font-weight: 700;
+ box-shadow: 0 25px 30px 0 hsla(245, 75%, 52%, 0.2);
+}
+
+#cancel {
+ border: none;
+ background-color: transparent;
+ color: gray;
+ width: 80%;
+ margin: 15px auto 30px auto;
+ font-weight: 700;
+}
+
+a:hover {
+ text-decoration: none;
+ color: hsl(244, 82%, 68%);
+}
+
+#payment:hover {
+ background-color: hsl(244, 82%, 68%);
+}
+
+#cancel:hover {
+ color: black;
+}
+
+@media only screen and (max-device-width: 480px) {
+ body {
+   background-image: url("images/pattern-background-desktop.svg");
+   background-repeat: no-repeat;
+   background-size: 100%;
+ }
+
+   #stylebox {
+   width: 90%;
+ }
+}
