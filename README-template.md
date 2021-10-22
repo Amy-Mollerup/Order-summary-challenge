@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Completed design preview](./screenshot.png)
+![Completed design preview](screenshot.PNG)
 
 ### Links
 
@@ -58,7 +58,7 @@ background: white;
 border-radius: 25px;
 text-align: center;
 }
-
+```
 
 
 ### Continued development
